@@ -3,91 +3,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flip Card Product Showcase</title>
+    <title>Crockery Store</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <!-- Navbar -->
+    <!-- Navigation Bar -->
     <nav class="navbar">
-        <div class="logo">✨ MyShop</div>
+        <div class="logo">Crockery<span>Store</span></div>
         <ul class="nav-links">
             <li><a href="#">Home</a></li>
-            <li><a href="#">Products</a></li>
+            <li><a href="#">Shop</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
+        <div class="hamburger">&#9776;</div>
     </nav>
 
     <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-text">
-            <h1>Welcome to MyShop</h1>
-            <p>Find your perfect product for yourself with us!</p>
-            <button>Shop Now</button>
+   <!-- Main Section -->
+<section class="main-section">
+    <div class="main-content">
+        <div class="image-container left">
+            <img src="https://images.pexels.com/photos/7952513/pexels-photo-7952513.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Elegant Crockery">
         </div>
-        <img src="https://i.pinimg.com/736x/78/11/83/781183425992284be808aac91389a10f.jpg" alt="">
+        <div class="text-container">
+            <h2>Welcome</h2>
+            <p>Discover timeless crockery that brings elegance to your dining table.</p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+        <div class="image-container right">
+            <img src="https://images.pexels.com/photos/18036103/pexels-photo-18036103/free-photo-of-cup-of-coffee-with-flowers-in-a-basket.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="Luxury Tableware">
+        </div>
+    </div>
+</section>
+
+
+  
+                    <!-- Flip Card Section -->
+    <section class="flip-card-section">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <!-- Front Side (Image) -->
+                <div class="flip-card-front">
+                    <img src="https://images.pexels.com/photos/9041603/pexels-photo-9041603.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="Elegant Plate">
+                </div>
+                <!-- Back Side (Text) -->
+                <div class="flip-card-back">
+                    <h2>Elegant Plate Set</h2>
+                    <p>Handcrafted ceramic plates with a touch of gold. Perfect for every occasion.</p>
+                    <div class="button-container">
+                        <button>Importer</button>
+                        <button>Manufacturer</button>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="https://images.pexels.com/photos/27818674/pexels-photo-27818674/free-photo-of-a-book-and-a-tea-set-on-a-bed-with-a-rose.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="Luxury Cup">
+                </div>
+                <div class="flip-card-back">
+                    <h2>Luxury Coffee Mug</h2>
+                    <p>Premium porcelain mug with a smooth finish. Ideal for your coffee moments.</p>
+                    <div class="button-container">
+                        <button>Importer</button>
+                        <button>Manufacturer</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="https://images.pexels.com/photos/7085512/pexels-photo-7085512.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="Designer Bowl">
+                </div>
+                <div class="flip-card-back">
+                    <h2>Designer Bowl</h2>
+                    <p>Deep ceramic bowl with artistic textures. A must-have for your kitchen.</p>
+                    <div class="button-container">
+                        <button>Importer</button>
+                        <button>Manufacturer</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="https://images.pexels.com/photos/11420870/pexels-photo-11420870.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="Crystal Glass">
+                </div>
+                <div class="flip-card-back">
+                    <h2>Crystal Glass</h2>
+                    <p>High-quality crystal glassware for an elite dining experience.</p>
+                    <div class="button-container">
+                        <button>Importer</button>
+                        <button>Manufacturer</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <!-- Product Section -->
-    <section class="products">
-        <div class="product-card">
-            <div class="card-inner">
-                <div class="card-front">
-                    <img src="https://i.pinimg.com/736x/b4/db/2f/b4db2fa130cd2f1d83712c39d797634a.jpg" alt="Product">
-                   
-                </div>
-                <div class="card-back">
-                    <h3>Price: 1500</h3>
-                    <p>serum and cream for spotless glow!!</p>
-                    <button>learn more</button>
-                </div>
-            </div>
-        </div>
+    <!-- Static Button -->
+     
+  
 
-        <div class="product-card">
-            <div class="card-inner">
-                <div class="card-front">
-                    <img src="https://i.pinimg.com/474x/fa/b1/e9/fab1e9f832ab527e18ae970cac559b92.jpg" alt="Product">
-                   
-                </div>
-                <div class="card-back">
-                    <h3>Price: 2000</h3>
-                    <p>Best combo for all skincare girlies!!</p>
-                    <button>learn more</button>
-                </div>
-            </div>
-        </div>
-
-        <div class="product-card">
-            <div class="card-inner">
-                <div class="card-front">
-                    <img src="https://i.pinimg.com/736x/57/71/23/577123d4c23c1824dc9d73771ab9d392.jpg" alt="Product">
-                   
-                </div>
-                <div class="card-back">
-                    <h3>Price: 2000</h3>
-                    <p>Toner that make your skin smooth!</p>
-                    <button>learn more</button>
-                </div>
-            </div>
-        </div>
-
-        <div class="product-card">
-            <div class="card-inner">
-                <div class="card-front">
-                    <img src="https://i.pinimg.com/736x/13/5a/0f/135a0f00958bd43c2e52e1e37ab735f0.jpg" alt="Product">
-                   
-                </div>
-                <div class="card-back">
-                    <h3>Price: 2000</h3>
-                    <p>Serum for rediant skin</p>
-                    <button>learn more</button>
-                </div>
-            </div>
-        </div>
+           
     </section>
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="script.js"></script>
 
